@@ -35,31 +35,40 @@
     height: 10%;
     padding: none;
 }
-/* need help with aligning these within container */
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .container3 .col-md-4{
     align-self: flex-start;
     text-align: left;
     height: auto;
+    margin-top: 40px;
     
 }
 
 .container3 .col-md-8{
     align-self: flex-end;
-    background-color: rgb(149, 149, 255);
+    background-color: #0750F8;
     color: white;
     align-items: right;
-    width:50%;
-    float: right;
+    width: 55%;
     border-radius: 10px;
     margin-top: none;
     text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
 }
 
-.btn btn-primary{
+.btn-primary{
     display: flex;
-    justify-content: end;
-    width: 20px;
+    justify-content: left;
+    width: 120px;
     box-sizing: border-box;
     border: 1x solid white;
 }
@@ -76,24 +85,29 @@
 }
 
 .container4 .button{
+    margin-top: 5px;
     height: fit-content;
     text-align: center;
+    border: 2px solid black;
 }
 .container4{
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 3%;
     margin-left: 20%;
     margin-right: 20%;
 }
 
-.container4 .box-container img{
-    content: '';
+.container4 img{
     height: 100px;
-    width: 140px;
+    width: 100px;
     border-radius: 100%;
-    border: 5px solid lightgray;
-    background-color: rgb(167, 231, 252);
+    border: 2px solid gray;
+    background-color: #E5EFFF;
+    margin-top: 20px;
 }
 
+.container4 h6{
+    margin-top: 10px;
+}
