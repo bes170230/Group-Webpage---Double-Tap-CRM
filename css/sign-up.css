@@ -1,0 +1,69 @@
+body{
+    justify-content: flex-end;
+}
+
+
+.display-1{
+font-weight: 500;
+margin-left: 100px;
+}
+
+.display-2{
+    font-size: medium;
+    font-weight: 500;
+    margin-left: 115px;
+}
+
+.grid-container{
+    max-width: 40%;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-left: 00px;
+}
+
+.text-box{
+    margin: 20px auto;
+    padding: 15px;
+}
+
+/* Input shape */
+.test{
+    border-radius: 30px;
+    height: 60px;
+    width: 500px;
+    
+}
+
+.signin-button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin-left: 132px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.img-fluid{
+    float: right;
+    max-width: 60%;
+    padding-right: 250px;
+    padding-top: 100px;
+    position: absolute;
+    margin-left: 35%;
+}
+
+.fa-brands{
+    object-fit: cover;
+    padding: 20px;
+    margin: 13px;
+    border: .1px solid black;
+    border-radius: 50%;
+    align-content: space-between;
+}
+
+.socials{
+    margin-left: 125px;
+}
