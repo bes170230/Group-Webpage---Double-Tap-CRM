@@ -1,0 +1,114 @@
+/* Heading */
+.container {
+    text-align: center;
+}
+
+.container h5{
+    font-weight: bold;
+}
+
+/* Exploration Icons */
+.container2{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container2 .button{
+    height: fit-content;
+    text-align: center;
+}
+
+/* Guy with Credit Card Image + Text box */
+.container3{
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 10%;
+    padding: none;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* need help with aligning these within container */
+
+.container3 .col-md-4{
+    align-self: flex-start;
+    text-align: left;
+    height: auto;
+    margin-top: 40px;
+    
+}
+
+.container3 .col-md-8{
+    align-self: flex-end;
+    background-color: #0750F8;
+    color: white;
+    align-items: right;
+    width: 55%;
+    border-radius: 10px;
+    margin-top: none;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: left;
+    width: 120px;
+    box-sizing: border-box;
+    border: 1x solid white;
+}
+
+/* widget grid */
+.container4{
+    text-align: center;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.container4 .button{
+    margin-top: 5px;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid black;
+}
+.container4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container4 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid gray;
+    background-color: #E5EFFF;
+    margin-top: 20px;
+}
+
+.container4 h6{
+    margin-top: 10px;
+}
