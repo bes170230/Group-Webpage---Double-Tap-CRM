@@ -21,7 +21,6 @@
       margin-left: 30px;
   }
 
-
   /* paragraphs and textboxes start */
 
 .container3{
@@ -35,7 +34,7 @@
     margin-right: 20%;
     height: 10%;
     padding: none;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .text{ 
   text-align: center;
@@ -48,7 +47,7 @@
 .text p{
   width: 700px;
   text-align: center;
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 10px;
 }
 
@@ -90,6 +89,26 @@ hr{
 
   /* paragraphs and text boxes end */
 
+  /* footer */
+  .container6{
+    box-sizing: content-box;
+    background: #0750F8;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .container6 footer{
+    width: 100%;
+    text-align: justify;
+  }
+.container6 .row .col .btn-outline-light{
+  background-color: #7FD127;
+}
+/* footer end */
+
+  .me-5{
+    text-align:center;
+  }
   .link-primary {
       margin-left: 40px;
   }
@@ -98,7 +117,3 @@ hr{
       font-size: 12px;
   }
 
-  .p-6
-  {
-      
-  }
