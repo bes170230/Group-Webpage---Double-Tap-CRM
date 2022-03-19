@@ -21,6 +21,13 @@
     margin-left: 30px;
   }
 
+  .link-primary {
+    margin-left: 40px;
+}
+
+.p-2 {
+    font-size: 12px;
+}
 
   /* paragraphs and textboxes start */
 
@@ -89,11 +96,3 @@ hr{
 }
 
   /* paragraphs and text boxes end */
-
-  .link-primary {
-      margin-left: 40px;
-  }
-
-  .p-2 {
-      font-size: 12px;
-  }
