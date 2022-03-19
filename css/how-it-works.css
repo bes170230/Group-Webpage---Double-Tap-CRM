@@ -88,3 +88,34 @@ hr{
 }
 
   /* paragraphs and text boxes end */
+
+  /* footer */
+  .container6{
+    box-sizing: content-box;
+    background: #0750F8;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .container6 footer{
+    width: 100%;
+    text-align: justify;
+  }
+.container6 .row .col .btn-outline-light{
+  background-color: #7FD127;
+}
+/* footer end */
+
+  .me-5{
+    text-align:center;
+  }
+  .link-primary {
+      margin-left: 40px;
+  }
+
+  .p-2 {
+      font-size: 12px;
+  }
+
+=======
+  /* paragraphs and text boxes end */
