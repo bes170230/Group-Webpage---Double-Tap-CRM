@@ -1,3 +1,43 @@
+.navbar-nav > li{
+    padding-left:40px;
+    padding-right:40px;
+    margin-left:40px;
+    margin-right:40px;
+  }
+
+  .btn {
+    padding-left:40px;
+    padding-right:40px;
+    margin-left:40px;
+    margin-right:40px;
+  }
+
+  #already-using {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  .d-flex {
+    margin-left: 30px;
+  }
+
+  .link-primary {
+    margin-left: 40px;
+    text-align: left;
+}
+
+.p-2 {
+    font-size: 12px;
+}
+
+.mb-3 {
+    text-align: left
+}
+
+p {
+    text-align: left;
+}
+
 /* Heading */
 .container {
     text-align: center;
@@ -65,7 +105,7 @@
     margin-right: 10px;
 }
 
-.btn-primary{
+.btn-secondary{
     display: flex;
     justify-content: left;
     width: 120px;
