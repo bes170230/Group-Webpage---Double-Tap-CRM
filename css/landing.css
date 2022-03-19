@@ -41,7 +41,6 @@
     flex-direction: row;
     justify-content: space-between;
 }
-/* need help with aligning these within container */
 
 .container3 .col-md-4{
     align-self: flex-start;
